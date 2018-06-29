@@ -7,4 +7,9 @@ $(document).ready(function() {
     $(".walrus-hidden").toggle();
   });
 
+  $("#walrus").click(function() {
+    $(".walrus-showing").toggle();
+    $(".walrus-hidden").toggle();
+  });
+
 });
