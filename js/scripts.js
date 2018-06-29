@@ -12,6 +12,17 @@ $(document).ready(function() {
     $(".walrus-hidden").toggle();
   });
 
+  $(".clickable").click(function() {
+    $("#walrus-showing").toggle();
+    $("#walrus-hidden").toggle();
+  });
+
+  // fadeIn()
+  // fadeOut()
+  // fadeToggle()
+  // slideDown()
+  // slideUp()
+  // slideToggle()
 
 
 });
